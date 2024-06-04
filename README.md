@@ -2,6 +2,6 @@
 ## Database per tenent
 - Multitenency.
 - dynamic db binding.
-- role based authentication.
 - runtime schema generation.
-- jwt
+- role based authentication.
+- jwt authentication
