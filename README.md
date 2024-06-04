@@ -1,6 +1,6 @@
 # Multitenency
 ## Database per tenent
-- Multitenency.
+- Multitenency (Database per tenent)
 - dynamic db binding.
 - runtime schema generation.
 - role based authentication.
