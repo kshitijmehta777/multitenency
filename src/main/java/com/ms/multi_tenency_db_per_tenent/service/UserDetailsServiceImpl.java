@@ -1,5 +1,6 @@
-package com.ms.multi_tenency_db_per_tenent.config;
+package com.ms.multi_tenency_db_per_tenent.service;
 
+import com.ms.multi_tenency_db_per_tenent.config.UserDetailsImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -21,5 +22,4 @@ public class UserDetailsServiceImpl implements UserDetailsService {
 				.orElseThrow(() -> new UsernameNotFoundException("user not found"));
 		return new UserDetailsImpl(companies);
 	}
-
 }

@@ -4,3 +4,4 @@
 - dynamic db binding.
 - role based authentication.
 - runtime schema generation.
+- jwt
