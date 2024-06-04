@@ -1,6 +1,6 @@
-# Multitenency
-## Database per tenent
-- Multitenency (Database per tenent)
+# Multitenancy
+## Database per tenant
+- Multitenancy (Database per tenant)
 - dynamic db binding.
 - runtime schema generation. (flyway migration)
 - role based authentication.
